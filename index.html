@@ -4,34 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <title>Weather API</title>
-    <link rel="stylesheet" href="font/Rimouski.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
+    <nav class="navbar navbar-default"> id="nav_bar">
+        <div class="container"></div>
+        <div class="navbar-header"></div>
+        <a href="#" class="navbar-brand-link"></a>
+        <img src="images/logo.png" class="img-responsive" id="logo" alt=""><strong>Weather API</strong>
 
-    <div class="container">
-        <div class="app-title">
-            <p>Weather</p>
+        <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="navcol">
+        <nav>span class="sr-only">Toggle navigation</nav>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
         </div>
-        <div class="notification"> </div>
-        <div class="weather-container">
-            <div class="weather-icon">
-                <img src="icons/unknown.png" alt="">
-            </div>
-            <div class="temperature-value">
-                <p>- °<span>C</span></p>
-            </div>
-            <div class="temperature-description">
-                <p> - </p>
-            </div>
-            <div class="location">
-                <p>-</p>
-            </div>
-        </div>
-    </div>
+        <div class="collapse navbar-collapse" id="navcol">
+            <ul class="nav navbar navbar-right">
+                <li><a href="current.html">Current</a></li>
+                <li><a href="forecast.html">Forecast</a></li>
+                <li><a href="">Open Weather Map</a></li>
+            </ul>
 
-    <script src="app.js"></script>
+
+
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js " integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 " crossorigin="anonymous ">
+            </script>
+
 </body>
 
 </html>

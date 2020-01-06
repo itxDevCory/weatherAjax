@@ -1,35 +1,119 @@
-* {
-    font-family: "Rimouski";
+body {
+    font-family: 'Tangerine', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif background-color #ffffff;
+    font-size: 20 px;
+    margin: 0;
+    padding: 0;
+}
+
+#nav_bar {
+    margin-bottom: 0px;
+    padding: 0;
+    background-color: white;
+}
+
+.weather {
+    color: 4aa1f3 !important;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#nav_list>li>a {
+    color: #4aa1f3 !important font-weight: 500;
 }
 
 body {
-    background-color: #293251;
+    background - color: #293251;
 }
 
 .container {
     width: 300px;
-    background-color: #FFF;
+    background-color: # FFF;
     display: block;
     margin: 0 auto;
-    border-radius: 10px;
-    padding-bottom: 50px;
+    border - radius: 10 px;
+    padding - bottom: 50 px;
 }
 
-.app-title {
-    width: 300px;
-    height: 50px;
-    border-radius: 10px 10px 0 0;
+.app - title {
+    width: 300 px;
+    height: 50 px;
+    border - radius: 10 px 10 px 0 0;
 }
 
-.app-title p {
-    text-align: center;
-    padding: 15px;
+.app - title p {
+    text - align: center;
+    padding: 15 px;
     margin: 0 auto;
-    font-size: 1.2em;
+    font - size: 1.2e m;
     color: #293251;
 }
 
 .notification {
-    background-color: #f8d7da;
+    background-color: # f8d7da;
     display: none;
+}
+
+.notification p {
+    color: #721c24;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.weather-container {
+    width: 300px;
+    height: 260px;
+    background-color: # F4F9FF;
+}
+
+.weather - icon {
+    width: 300 px;
+    height: 128 px;
+}
+
+.weather - icon img {
+    display: block;
+    margin: 0 auto;
+}
+
+.temperature - value {
+    width: 300 px;
+    height: 60 px;
+}
+
+.temperature - value p {
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.temperature-value p:hover {}
+
+.temperature-value span {
+    color: # 293251;
+    font - size: 0.5e m;
+}
+
+.temperature - description {}
+
+.temperature - description p {
+    padding: 8 px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.location {}
+
+.location p {
+    margin: 0;
+    padding: 0;
+    color: # 293251;
+    text - align: center;
+    font - size: 0.8e m;
 }
